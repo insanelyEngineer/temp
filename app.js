@@ -1,0 +1,5 @@
+const hero = require('./mod1')
+const work = require('./mod2')
+work.func1(hero.a)
+work.func1(hero.b)
+work.func1(hero.c)
